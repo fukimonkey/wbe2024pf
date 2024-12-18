@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+.zen-kurenaido-regular {
+font-family: "Zen Kurenaido", sans-serif;
+font-weight: 400;
+font-style: normal;
+  }
+  
+*{
+margin:0;
+padding:0;
+}
+h1{
+font-size:6.7rem;    
+}
+section{
+width:100vw;
+height:100vh;
+}
+#top{
+background-color:cyan;
+display:flex;    
+justify-content:center;
+align-items:center;
+background:url(topimg.jpg) no-repeat;
+background-size:cover;
+}
+#works{
+background-color:crimson;    
+}
+#about{
+background-color:aquamarine;    
+}
